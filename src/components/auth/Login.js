@@ -46,7 +46,7 @@ function Login() {
           <form>
             {!!error && <p className="login__error">{error}</p>}
 
-            <label htmlFor="login__email">Email address</label>
+            <label htmlFor="login__email">Username</label>
             <input
               type="email"
               name="email"
@@ -69,7 +69,20 @@ function Login() {
                 setPassword(e.target.value);
               }}
             />
+            
+            <label htmlFor="login__cn">Company Name</label>
+            <input
+              type="text"
+              name="compn"
+              id="login__cn"
+            />
 
+            <label htmlFor="login__an">Admin Name</label>
+            <input
+              type="text"
+              name="adminn"
+              id="login_an"
+            />
             <button
               type="submit"
               className="login__signInButton"

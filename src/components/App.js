@@ -8,7 +8,7 @@ import { auth } from "../config/firebase";
 import Payment from "./payment/Payment";
 import Orders from "./orders/Orders";
 import SignUp from "./auth/SignUp";
-
+import ContractsPage from "./contracts/ContractsPage";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
@@ -66,6 +66,15 @@ function App() {
               <>
                 <Header />
                 <Orders />
+              </>
+            }
+          />
+          <Route
+            path="/contracts"
+            element={
+              <>
+                <Header />
+                < ContractsPage/>
               </>
             }
           />

@@ -87,8 +87,15 @@ function Header() {
 
           <Link to="/orders" className="mobile-hidden">
             <div className="header__option">
-              <span className="header__optionOne">Returns</span>
-              <p className="header__optionTwo">& Orders</p>
+              <span className="header__optionOne">My</span>
+              <p className="header__optionTwo">Orders</p>
+            </div>
+          </Link>
+
+          <Link to="/contracts" className="mobile-hidden">
+            <div className="header__option">
+              <span className="header__optionOne">My</span>
+              <p className="header__optionTwo">Contracts</p>
             </div>
           </Link>
 

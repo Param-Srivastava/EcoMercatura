@@ -71,7 +71,39 @@ function SignUp() {
                 setPassword(e.target.value);
               }}
             />
-
+            <label htmlFor="login__cn">Company Name</label>
+            <input
+              type="text"
+              name="compn"
+              id="login__cn"
+            />
+            <label htmlFor="login__an">Admin Name</label>
+            <input
+              type="text"
+              name="adminn"
+              id="login_an"
+            />
+            <label htmlFor="Ecc">Eco-friendly Certification?</label>
+            <select 
+                     name="Ecc"
+                     id="Ecc"
+                     required
+            >
+                 <option value="" disabled>Certified?</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+            </select>
+            <label htmlFor="btype">Business Type</label>
+            <select
+                        name="btype"
+                        id="btype"
+                        required
+                      >
+                        <option value="" disabled>Select Business Type</option>
+                        <option value="public ltd.">Public Ltd.</option>
+                        <option value="pvt ltd.">Pvt Ltd.</option>
+                        <option value="small venture">Small Venture</option>
+                      </select>
             <button
               type="submit"
               className="login__signInButton"
