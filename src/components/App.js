@@ -8,6 +8,7 @@ import { auth } from "../config/firebase";
 import Payment from "./payment/Payment";
 import Orders from "./orders/Orders";
 import SignUp from "./auth/SignUp";
+import ProductList from "./product/ProductList";
 import ContractsPage from "./contracts/ContractsPage";
 import Dashboard from './resourceplanner/dashboard'; 
 import { loadStripe } from "@stripe/stripe-js";
@@ -67,6 +68,16 @@ function App() {
               <>
                 <Header />
                 <Orders />
+              </>
+            }
+          />
+          <Route
+            path="/product"
+            element={
+              <>
+                 <Header/>
+                <ProductList />
+                
               </>
             }
           />
