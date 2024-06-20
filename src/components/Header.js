@@ -202,6 +202,16 @@ function Header() {
             <button
               className="header__option header__mobileNavItem"
               onClick={() => {
+                navigate("/product");
+                setMobileNav((prevState) => !prevState);
+              }}
+            >
+              <span className="header__optionOne">Listed</span>
+              <span className="header__optionTwo">Products</span>
+            </button>
+            <button
+              className="header__option header__mobileNavItem"
+              onClick={() => {
                 navigate("/resourceplanner");
                 setMobileNav((prevState) => !prevState);
               }}
