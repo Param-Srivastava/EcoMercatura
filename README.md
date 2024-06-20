@@ -28,18 +28,13 @@ EcoMercatura is a sophisticated and responsive e-commerce platform designed to d
 
 EcoMercatura combines cutting-edge web technologies with user-centric design to create a powerful and intuitive e-commerce solution. Whether on a desktop or a mobile device, users can enjoy a fast, responsive, and secure shopping experience.
 
-## Future Work 🚧
+## Additional Features🚧
 
 ### Marketplace Functionality 🏬
 
 - **Product Listings**: Vendors will be able to list eco-friendly products and services with detailed descriptions, pricing, and availability.
-- **Search and Filter**: Advanced search and filtering options to help users find specific products or services based on various criteria (e.g., location, quality certifications).
+
 - **Order Management**: Features for placing orders, tracking order status, and managing deliveries.
-
-### Real-Time Tracking 📍
-
-- **GPS Integration**: Real-time GPS tracking displayed on an interactive map.
-- **Shipment Status Updates**: Notifications and updates on the status of shipments in real time.
 
 ### Quality Assurance ✔️
 
@@ -51,6 +46,17 @@ EcoMercatura combines cutting-edge web technologies with user-centric design to 
 - **Inventory Management**: Tools for managing inventory, including alerts for low stock levels.
 - **Usage Analytics**: Historical data analysis to track usage patterns and predict future needs.
 - **Forecasting Tools**: Algorithms to forecast future requirements based on historical data and trends.
+
+### Collaborative Contracts 🤝
+
+- **Joint Product Development**: Tools for enabling two companies to collaboratively develop products, including shared workspaces and communication channels.
+- **Contract Management**: Features for creating, tracking, and managing contracts, specifying the terms, duration, and scope of collaboration.
+- **Task and Milestone Tracking**: Tools to assign tasks, set milestones, and monitor progress, ensuring both parties stay aligned with the project timeline.
+- **Resource Allocation**: Systems to allocate and track resources from both companies, ensuring optimal utilization and avoiding conflicts.
+- **Performance Analytics**: Dashboards and reports to analyze the performance of the collaboration, measuring productivity, and identifying areas for improvement.
+- **Secure Data Sharing**: Encrypted channels and permission settings to ensure that sensitive information is securely shared and accessed only by authorized personnel.
+- **Compliance Monitoring**: Tools to ensure that all collaborative activities comply with industry regulations and contractual agreements.
+- **Conflict Resolution**: Mechanisms for managing and resolving disputes or issues that arise during the collaboration, maintaining a healthy partnership.
 
 ## Tech Stack 🛠️
 
