@@ -98,7 +98,13 @@ function Header() {
               <p className="header__optionTwo">Contracts</p>
             </div>
           </Link>
-
+          
+          <Link to="/resourceplanner" className="mobile-hidden">
+            <div className="header__option">
+              <span className="header__optionOne">Resource Planning</span>
+              <p className="header__optionTwo">&  Management</p>
+            </div>
+          </Link>
           <button
             className="header__mobileUser desktop-hidden"
             onClick={() => !profile && navigate("/login")}
@@ -174,10 +180,29 @@ function Header() {
                 setMobileNav((prevState) => !prevState);
               }}
             >
-              <span className="header__optionOne">Returns</span>
-              <span className="header__optionTwo">& Orders</span>
+              <span className="header__optionOne">My</span>
+              <span className="header__optionTwo">Orders</span>
             </button>
-
+            <button
+              className="header__option header__mobileNavItem"
+              onClick={() => {
+                navigate("/contracts");
+                setMobileNav((prevState) => !prevState);
+              }}
+            >
+              <span className="header__optionOne">My</span>
+              <span className="header__optionTwo">Contracts</span>
+            </button>
+            <button
+              className="header__option header__mobileNavItem"
+              onClick={() => {
+                navigate("/resourceplanner");
+                setMobileNav((prevState) => !prevState);
+              }}
+            >
+              <span className="header__optionOne">Resource Planning</span>
+              <span className="header__optionTwo">& Management</span>
+            </button>
             <button
               className="header__option header__mobileNavItem"
               onClick={handleAuthentication}

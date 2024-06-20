@@ -9,6 +9,7 @@ import Payment from "./payment/Payment";
 import Orders from "./orders/Orders";
 import SignUp from "./auth/SignUp";
 import ContractsPage from "./contracts/ContractsPage";
+import Dashboard from './resourceplanner/dashboard'; 
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
@@ -75,6 +76,15 @@ function App() {
               <>
                 <Header />
                 < ContractsPage/>
+              </>
+            }
+          />
+          <Route
+            path="/resourceplanner"
+            element={
+              <>
+                <Header />
+                < Dashboard/>
               </>
             }
           />
