@@ -48,7 +48,7 @@ function SignUp() {
           <form>
             {!!error && <p className="login__error">{error}</p>}
 
-            <label htmlFor="login__email">Email address</label>
+            <label htmlFor="login__email">Username</label>
             <input
               type="email"
               name="email"
